@@ -1,4 +1,6 @@
+
 var Counter = React.createClass({
+
 	getInitialState: function() {
 		return {
 			counter: 0
@@ -22,7 +24,7 @@ var Counter = React.createClass({
 			"div",{},
 			React.createElement(
 				"div",
-				{ counter: this.state.counter },
+				{},
 				"Licznik " + this.state.counter
 			),
 			React.createElement(
@@ -38,6 +40,7 @@ var Counter = React.createClass({
 		);
 	}
 });
+
 
 var element = React.createElement(Counter);
 ReactDOM.render(element, document.getElementById("app"));
