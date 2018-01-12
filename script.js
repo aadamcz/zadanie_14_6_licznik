@@ -25,15 +25,15 @@ var Counter = React.createClass({
 
 	componentWillMount: function() {
 		console.log(
-			"ComponentWillMount, Komponent za chwilę będzie zamontowany."
+			"ComponentWillMount, komponent za chwilę będzie zamontowany."
 		);
 	},
 	componentDidMount: function() {
-		console.log("componentDidMount, Komponent zamontowany.");
+		console.log("componentDidMount, komponent zamontowany.");
 	},
 	componentWillReceiveProps: function() {
 		console.log(
-			"componentWillReceiveProps, Komponent odbiera nowe i aktualizuje atrybuty i stany."
+			"componentWillReceiveProps, komponent odbiera nowe właściwości i aktualizuje atrybuty i stany."
 		);
 	},
 	shouldComponentUpdate: function() {
